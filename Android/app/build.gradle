@@ -5,13 +5,13 @@ android {
     aaptOptions {
         noCompress "webp"
     }
-    compileSdkVersion 31
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.thefreakinprogrammer.iustickersapp"
         minSdkVersion 15
-        targetSdkVersion 31
-        versionCode 4
-        versionName "1.0"
+        targetSdkVersion 33
+        versionCode 5
+        versionName "1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
